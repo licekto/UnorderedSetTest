@@ -26,3 +26,9 @@ Or download one with 100000 records from: [sample_input.txt](https://uploadfiles
 # Output
 
 Application writes measured times to the standard output
+
+# Evaluation
+
+`std::unordered_set with reserved space is faster.`
+`Duration of version without reserved space: 322885`
+`Duration of version with    reserved space: 199107`
